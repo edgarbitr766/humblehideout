@@ -1,3 +1,3 @@
-module load_tester_ca20a4
+module load_tester_24b396
 
 go 1.19

