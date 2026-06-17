@@ -1,3 +1,3 @@
-module load_tester_6cd0c1
+module load_tester_1281b6
 
 go 1.19

@@ -1,4 +1,4 @@
-# load-tester-6cd0c1
+# load-tester-1281b6
 
 A Go load tester utility.
 
